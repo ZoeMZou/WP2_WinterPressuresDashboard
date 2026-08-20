@@ -17,7 +17,7 @@ Winter places significant pressure on primary and secondary care in the UK. ​G
 **Dashboard reviewers**: Zoe Mengxuan Zou, Marwa Al Arab 
 
 ## Dashboard aims
-The results encompass 21 practice-level characteristics, eight outcomes and multiple model types. It is difficult to
+The study results encompass 21 practice-level characteristics, eight outcomes and multiple model types. It is difficult to
 General practice characteristics may influence
 communicate these complex results with static figures alone. The aims are to:
 - Develop a reusable interactive dashboard for visualisation
