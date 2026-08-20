@@ -50,7 +50,7 @@ The [Mastering Shiny](https://mastering-shiny.org/) book and the [Shiny for R Ga
 
 [`makeplot_module.R`](./DashboardShinyApp/R/makeplot_module.R): This file contains the data parsing and visualising logic. Replace the column names in this dataset with the column names in your own. Replace the interpretation sentences with ones that apply to your figures. This script adds an "exposure type" column to the dataset. Replace the variables (Practice characteristics and Patient case-mix) to render a graph with dynamic facets.
 
-[`makelabels_module.R`](./DashboardShinyApp/R/makelabels_module.R): This is called in [makeplot_module.R](./DashboardShinyApp/R/makeplot_module.R) and makes the heading y axis labels bold. Replace the vectors as required.
+[`makeylabels_module.R`](./DashboardShinyApp/R/makelabels_module.R): This is called in [makeplot_module.R](./DashboardShinyApp/R/makeplot_module.R) and makes the heading y axis labels bold. Replace the vectors as required.
 
 ## Running the dashboard locally
 
