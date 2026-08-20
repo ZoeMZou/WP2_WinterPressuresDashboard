@@ -1,0 +1,170 @@
+   :root {
+      --UOB_red: #a6192e;
+    }
+
+    body{
+      font-family: 'Open Sans';
+      font-size: 14px;
+    }
+
+    h1 {
+      font-family: 'Sora';
+      font-weight: 600;
+      color: var(--UOB_red);
+      font-size: clamp(18px, 1.6vw, 22px) !important;
+      position: relative;
+      top: 12px;
+     }
+
+     h2{
+      font-family: 'Open Sans';
+      margin-top: 25px;
+      font-size: 20px;
+     }
+
+     h3{
+      font-family: 'Open Sans';
+      font-size: 18px;
+      color: black;
+     }
+
+     .navbar-brand {
+      display: flex;
+      align-items: flex-start;
+     }
+
+     .navbar-brand img {
+      height: clamp(14px, 3vw, 34px) !important;
+      width: auto;
+     }
+
+     .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+     }
+
+     .navbar-nav {
+      flex-wrap: nowrap !important;
+      flex-direction: row !important;
+     }
+
+     .nav-link {
+      display: flex;
+      align-items: center;
+      font-family: 'Open Sans';
+      margin-top: 25px;
+      font-size: clamp(12px, 0.8vw, 22px) !important;
+     }
+
+     .nav-link:hover{
+      color:  var(--UOB_red) !important;
+     }
+
+     .nav-link.active{
+      color: var(--UOB_red) !important;
+      font-weight: 600 !important;
+     }
+
+     .bootstrap-select .dropdown-menu li a span.text {
+      word-wrap: break-word !important;
+      max-width: 16ch !important;
+    }
+    .bootstrap-select .dropdown-menu.inner li.selected a {
+      background-color: var(--UOB_red) !important;   
+      color: #fff !important;
+     }
+
+     .filters-card {
+      font-size: clamp(10px, 1vw, 18px) !important;
+     }
+
+  label[for="time11"],
+  label[for="time21"],
+  label[for="time31"] {
+    background-color: #fff !important;
+    border-color: #ff7f50 !important;
+    color: #ff7f50 !important;
+  }
+
+  input#time11:checked + label[for="time11"],
+  input#time21:checked + label[for="time21"],
+  input#time31:checked + label[for="time31"] {
+    background-color: #ff7f50 !important;
+    border-color: #ff7f50 !important;
+    color: #fff !important;
+  }
+
+  label[for="time12"],
+  label[for="time22"],
+  label[for="time32"] {
+    background-color: #fff !important;
+    border-color: #8fbc8f !important;
+    color: #8fbc8f !important;
+  }
+
+  input#time12:checked + label[for="time12"],
+  input#time22:checked + label[for="time22"],
+  input#time32:checked + label[for="time32"] {
+    background-color: #8fbc8f !important;
+    border-color: #8fbc8f !important;
+    color: #fff !important;
+  }
+
+  label[for="time13"],
+  label[for="time23"],
+  label[for="time33"] {
+    background-color: #fff !important;
+    border-color: #da70d6 !important;
+    color: #da70d6 !important;
+  }
+
+  input#time13:checked + label[for="time13"],
+  input#time23:checked + label[for="time23"],
+  input#time33:checked + label[for="time33"]{
+    background-color: #da70d6 !important;
+    border-color: #da70d6 !important;
+    color: #fff !important;
+  }
+
+  label[for="time14"],
+  label[for="time24"],
+  label[for="time34"] {
+    background-color: #fff !important;
+    border-color: #00bfff !important;
+    color: #00bfff !important;
+  }
+
+  input#time14:checked + label[for="time14"],
+  input#time24:checked + label[for="time24"],
+  input#time34:checked + label[for="time34"]{
+    background-color: #00bfff !important;
+    border-color: #00bfff !important;
+    color: #fff !important;
+  }
+
+
+  /* About page styling */
+
+  .projecttitle {
+    font-size: 26px;
+    font-family: 'Open Sans';
+  }
+
+  .projectoverview, .useoverview, .studyoverview, .dashoverview, .opensafelyoverview {
+    font-family: 'Sora';
+  }
+
+  .dashtitle, .usetitle, .studytitle, .opensafelytitle {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color:#c76642;
+  }
+
+  .studybox {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #f0b099;
+  }
+
+    
+
