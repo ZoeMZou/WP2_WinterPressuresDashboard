@@ -14,7 +14,7 @@ library(ggh4x)
 library(rsconnect)
 library(shinycssloaders)
 
-# current url:  https://h4e5yf-nagat0guled.shinyapps.io/winterpressuresdashboard/
+# current url:  https://kjgb5q-zoe-zou.shinyapps.io/winterpressuresdashboard/
 
 df <- read.csv("data/dummy_model_output.csv")
 
